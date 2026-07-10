@@ -111,3 +111,80 @@ nav{
 .card-container h3,p{
     padding: 10px;
 }
+
+
+
+
+
+
+
+
+
+.p-card{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.p-card h1{
+    font-size: 44px;
+    color: #0D1B2A ;
+    font-weight: bold;
+}
+.p-card h3{
+    font-size: 15px;
+    color: #888888 ;
+    
+}
+.p-card h4{
+    font-size: 15px;
+    color: #888888 ;
+    font-weight: 400;
+    padding-bottom: 25px;
+}
+
+.card-card{
+    width: 360px;
+    border: 1px solid #888888;
+    padding: 20px;
+    border-radius: 15px;
+}
+.card-card button{
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: white;
+    font-weight: bold;
+    color: #2563EB;
+    border: 1px solid #2563EB;
+}
+.card-card mid-btn{
+    background-color: #2563EB;
+}
+
+.benifit{
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.benifit li{
+    font-size: 20px;
+    padding: 6px 0px;
+}
+
+.benifit li::marker{
+    color: #2563EB;
+}
+
+.secure-h1{
+    font-width: bold;
+    font-size: 50px;
+    color: #0D1B2A;
+    text-align: center;
+}
+.secure-p{
+    font-size: 18px;
+    color: #575757;
+    text-align: center;
+    padding: 15px;
+}
+
