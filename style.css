@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: "Open Sans", sans-serif;
 }
 
 
@@ -167,6 +168,7 @@ nav{
     padding-left: 15px;
 }
 .benifit li{
+    font-family: "Open Sans", sans-serif;
     font-size: 20px;
     padding: 6px 0px;
 }
@@ -188,3 +190,151 @@ nav{
     padding: 15px;
 }
 
+/* AI use section start */
+
+.agenda-section{
+    background:white;
+    padding:90px 20px;
+}
+
+
+.agenda-header{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+
+.agenda-header h1{
+    font-size:45px;
+    color:black;
+}
+
+
+.agenda-header p{
+    color:#888888;
+    margin-top:15px;
+}
+
+
+.agenda-container{
+    max-width:1000px;
+    margin:auto;
+}
+
+
+.agenda-card{
+    display:flex;
+    gap:40px;
+    margin-bottom:25px;
+    padding:30px;
+    border-radius:18px;
+    border:1px solid #ddd;
+    background:white;
+    transition:.3s;
+}
+
+
+.agenda-card:hover{
+    transform:translateY(-6px);
+    border-color:#2563EB;
+    box-shadow:0 15px 35px rgba(0,0,0,0.1);
+}
+
+
+
+.agenda-time{
+    min-width:150px;
+    border-right:3px solid #2563EB;
+}
+
+
+.agenda-time h3{
+    color:#2563EB;
+    font-size:24px;
+}
+
+
+.agenda-time span{
+    color:#888888;
+}
+
+
+
+.agenda-content{
+    flex:1;
+}
+
+
+.category{
+    background:#2563EB;
+    color:white;
+    padding:6px 15px;
+    border-radius:20px;
+    font-size:14px;
+}
+
+
+.agenda-content h2{
+    margin:15px 0 10px;
+    color:black;
+}
+
+
+.agenda-content p{
+    color:#888888;
+    line-height:1.6;
+}
+
+
+
+.info{
+    display:flex;
+    gap:25px;
+    margin-top:15px;
+}
+
+
+.info span{
+    color:#2563EB;
+    font-weight:600;
+}
+
+
+/* Special break cards */
+
+.break,
+.lunch{
+    background:#f8f8f8;
+}
+
+
+
+/* Responsive */
+
+@media(max-width:700px){
+
+    .agenda-card{
+        flex-direction:column;
+    }
+
+
+    .agenda-time{
+        border-right:none;
+        border-bottom:3px solid #2563EB;
+        padding-bottom:15px;
+    }
+
+
+    .info{
+        flex-direction:column;
+        gap:10px;
+    }
+
+
+    .agenda-header h1{
+        font-size:32px;
+    }
+
+}
+
+/* AI use section End */
