@@ -345,16 +345,40 @@ footer{
     
 }
 
-.f-down{
-    text-align: center;
-}
 
 .f-left{
-    margin-left: 50px;
+    margin-left: 100px;
     margin-top: 35px;
     
 }
 .f-right{
-    margin-right: 50px;
+    margin-right: 80px;
     margin-top: 35px;
+}
+
+.social-logo{
+    padding: 0px 20px;
+}
+
+.f-con a{
+    text-decoration: none;
+    display: flex;
+    color: #6b737c;
+    gap: 25px;
+}
+.f-down{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     color: #6b737c;
+     gap: 20px;
+}
+.rulebook{
+    display: flex;
+    gap: 25px;
+    margin-right: 40px;
+}
+
+.copy{
+    margin-left: 40px;
 }
