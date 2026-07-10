@@ -115,12 +115,6 @@ nav{
 
 
 
-
-
-
-
-
-
 .p-card{
     display: flex;
     justify-content: center;
@@ -338,3 +332,29 @@ nav{
 }
 
 /* AI use section End */
+
+
+footer{
+    background-color: #0D1B2A;
+    color: white;
+}
+.f-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.f-down{
+    text-align: center;
+}
+
+.f-left{
+    margin-left: 50px;
+    margin-top: 30px;
+    
+}
+.f-right{
+    margin-right: 50px;
+    margin-top: 30px;
+}
