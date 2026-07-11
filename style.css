@@ -388,6 +388,7 @@ footer{
     align-items: center;
      color: #6b737c;
      gap: 20px;
+     padding: 20px 20px;
 }
 .rulebook{
     display: flex;
