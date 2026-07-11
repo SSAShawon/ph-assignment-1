@@ -40,7 +40,7 @@ nav{
     
 }
 
-/* comment */
+/* Banner section css */
 
 .hero {
     height: 100vh;
@@ -69,6 +69,11 @@ nav{
     width: 300px;
     height: 75px;
 }
+
+
+/* speaker section css */
+
+
 .card-container{
     display: grid;
     grid-template-columns: 650px 650px;
@@ -110,11 +115,14 @@ nav{
     margin-left: 10px;
 }
 
-.card-container h3,p{
+.card-container h3{
     padding: 10px;
 }
+.card-container p{
+    padding: 10px;
+}   
 
-
+/* secure seat section */
 
 .p-card{
     display: flex;
@@ -180,7 +188,7 @@ nav{
 }
 
 .secure-h1{
-    font-width: bold;
+    font-weight: bold;
     font-size: 50px;
     color: #0D1B2A;
     text-align: center;
